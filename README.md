@@ -3,11 +3,10 @@
 **Framework-Free MoE Inference on a 6 GB NVIDIA GPU via Async SSD Streaming and Hand-Tuned CUDA Kernels**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Platform: Windows](https://img.shields.io/badge/Platform-Windows11-blue)](https://github.com/donelucy46/flash-moe-cuda)
-[![GPU: NVIDIA](https://img.shields.io/badge/GPU-RTX_3050-76B900)]
-([https://github.com/amanvx/flash-moe-cuda])
+[![Platform: Windows](https://img.shields.io/badge/Platform-Windows_11-blue)](https://github.com/donelucy46/flash-moe-cuda)
+[![GPU: RTX 3050](https://img.shields.io/badge/GPU-RTX_3050-76B900)](https://github.com/amanvx/flash-moe-cuda)
 
-A complete C++/CUDA inference engine that runs **Qwen3.5-9B** (hybrid Mixture-of-Experts) at interactive speeds on an **RTX 3050 (6 GB VRAM)** with only **16 GB system RAM** — no Python, no ML frameworks, no third-party libraries.
+A complete **C++/CUDA** inference engine that runs **Qwen3.5-9B** (hybrid Mixture-of-Experts) at interactive speeds on an **RTX 3050 (6 GB VRAM)** with only **16 GB system RAM** — no Python, no ML frameworks, no third-party libraries.
 
 Inspired by the original [Flash-MoE](https://github.com/danveloper/flash-moe) project on Apple Silicon, this is the **NVIDIA + Windows** counterpart: pure hand-tuned CUDA kernels, async OVERLAPPED I/O, double-buffered pinned staging, and the same "Trust the OS" page-cache philosophy.
 
@@ -25,6 +24,6 @@ Inspired by the original [Flash-MoE](https://github.com/danveloper/flash-moe) pr
 
 ### Quick Start
 ```bash
-git clone https://github.com/donelucy46/flash-moe-cuda.git
+git clone https://github.com/amanvx/flash-moe-cuda.git
 cd flash-moe-cuda
 # (build instructions here)
